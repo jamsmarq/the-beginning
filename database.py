@@ -1,7 +1,7 @@
 import pymongo
 
 def setup_database():
-    CONNECTION_STRING = "mongodb+srv://jamsmarq:jUKNFaKrMghuQZ@the-beginning.mzrodrd.mongodb.net/?retryWrites=true&w=majority"
+    CONNECTION_STRING = "mongodb+srv://username:password@the-beginning.mzrodrd.mongodb.net/?retryWrites=true&w=majority"
     client = pymongo.MongoClient(CONNECTION_STRING)
 
     return client['the_beginning']
